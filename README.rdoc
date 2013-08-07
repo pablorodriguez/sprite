@@ -1,0 +1,15 @@
+List of step to creat this
+
+uncomment Gemfile
+  gem 'therubyracer', :platforms => :ruby
+
+add 
+  gem 'compass-rails'
+  gem 'compass_twitter_bootstrap', '2.2.2'
+  gem 'haml'
+
+bundle
+
+copy png to asstes/images/brands  
+
+rails g controller car index
